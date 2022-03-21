@@ -12,4 +12,6 @@
   (testing "Debug 2022"
     (debug/debug-year 2022))
   (testing "Debug 2168"
-    (debug/debug-year 2168)))
+    (debug/debug-year 2168))
+  (testing "simple out"
+    (println (.get (java.time.LocalDate/of 2168 1 1) java.time.temporal.IsoFields/WEEK_OF_WEEK_BASED_YEAR)))
