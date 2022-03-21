@@ -1,0 +1,2 @@
+#kaocha/v1 {:tests [{:ns-patterns    ["-tests$"]
+                     :test-paths  ["src/test/clj"]}]}
